@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Define the source folder where the .pgp files are located
-SRC_FOLDER="/home/rahmasy/Public/scripts"
+SRC_FOLDER="/"
 
 # Define the base path where the backup folders will be created
-BASE_PATH="/home/rahmasy/Public/scripts"
+BASE_PATH="/"
 
 # Path to a file that stores the last run date
-LAST_RUN_FILE="/home/rahmasy/Public/scripts/last_run_date.txt"
+LAST_RUN_FILE="/last_run_date.txt"
 
 # Initialize the last run file if it doesn't exist
 if [ ! -f "$LAST_RUN_FILE" ]; then
